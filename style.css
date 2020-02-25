@@ -1,0 +1,97 @@
+body{
+	
+	font-family: 'Poppins', ;
+	margin:0;
+	padding:0;
+}
+h1,h3,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+.menu{
+	font-size:18px;
+	font-weight:medium;
+	color:#707070;
+}
+.slider{
+	padding:50px 0;
+	background-color:black;
+}
+.slider_first h1{
+	font-size:41px;
+	font-weight:medium;
+}
+.slider_first p{
+	padding:20px 0;
+}
+.slider_second img{
+	width:100%;
+}
+
+
+.smartphone, .laptop, .categories{
+	padding:50px 0;
+}
+.smart_title, .laptop_title{
+	padding-bottom:100px;
+}
+.smart_title h1, .laptop_title h1{
+	font-size:30px;
+	font-weight:medium;
+}
+.smart_title h3, .laptop_title h3{
+	font-size:22px;
+	font-weight:medium;
+	float:right;
+	color:#FF9D00;
+}
+.card{
+	border:none;
+	box-shadow:1px 1px 5px 1px #DDDDDD;
+}
+.arrow{padding-left:10px;}
+.last_title h1{
+	text-align:center;
+	position:relative;
+}
+.last_title h1::before{
+	content:"";
+	position:absolute;
+	bottom:-15px;
+	left:30px;
+	width:136px;
+	height:5px;
+	background-color:#FF9C35;
+	border-radius:5px;
+	
+}
+.categories2{
+	padding:50px 0;
+}
+.cate_first_img{
+	width:296px;
+	height:314px;
+	border:none;
+	box-shadow:1px 1px 5px 1px #DDDDDD;
+}
+.cate_first_img img{
+	padding:88px 0 30px 0;
+}
+.cate_second{
+	width:296px;
+	height:314px;
+	border:none;
+	box-shadow:1px 1px 5px 1px #DDDDDD;
+	margin-bottom:40px;
+	margin-left:40px;
+}
+.cate_second img{
+	padding:88px 0 30px 0;
+}
+.cate_third_img img{
+	width:100%;
+}
+
+
+
+
